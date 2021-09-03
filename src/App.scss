@@ -1,0 +1,22 @@
+body {
+  background: lightblue;
+  color: black;
+  font-size: sans-serif;
+}
+
+.control {
+  background: rgb(65, 58, 58);
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  h3 {
+    width: 100%;
+    text-align: center;
+  }
+  input {
+    width: 25rem;
+  }
+}
